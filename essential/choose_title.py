@@ -8,13 +8,15 @@
 #  Description: Randomly selects a starting title (like Wanderer or 
 #    Apprentice) and prints it.
 #
-#  Author: <Your Name>
+#  Author: Chenglu
 #
 # ------------------------------------------------------------------------
 
 import random
 
 def choose_title():
-    print("Choose Title")
-    return "Knight"
+    titles = ["Wanderer", "Apprentice", "Knight", "Mage", "Rogue"]
+    title = random.choice(titles)
+    print("Your starting title is:", title)
+    return title
 
