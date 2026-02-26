@@ -1,19 +1,12 @@
-# ------------------------------------------------------------------------
-#
-#  Function: create_health
-# 
-#  Inputs: none
-#  Returns: health (integer)
-# 
-#  Description: Randomly generates a starting health value between 50 
-#    and 150. Prints varied messages depending on strength of the player.
-# 
-#  Author: <Your Name>
-#
-# ------------------------------------------------------------------------
-
-import random
-
-def create_health():
-    print("Create Health")
-    return 90
+from random import randint
+def create_health() -> int:
+    health = randint(50, 150)
+    if health < 75:
+        print(f"You feel weak, with only {health} health.")
+    elif health <= 100:
+        print(f"You feel moderately strong, with {health} health.")
+    elif health <= 125:
+        print(f"You feel as strong as an ox, with {health} health.")
+    else:
+        print(f"You feel unstoppable, with {health} health!")
+    return health
