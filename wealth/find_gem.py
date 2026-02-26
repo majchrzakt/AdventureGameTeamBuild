@@ -7,12 +7,15 @@
 #
 #  Description: Player finds a gem worth a random amount of gold.
 #
-#  Author: <Your Name>
+#  Author: <Dario Lopez>
 #
 # ------------------------------------------------------------------------
 
 import random
 
 def find_gem(gold):
-    print("Find Gem")
-    return gold+5
+    #Generate a random interger between 1 and 20
+    gold = random.randint(1, 20)
+    # Print the result
+    print(f"You found a gem worth {gold} gold!")
+        return gold
