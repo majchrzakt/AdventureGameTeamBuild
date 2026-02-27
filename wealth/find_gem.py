@@ -18,4 +18,4 @@ def find_gem(gold):
     gold = random.randint(1, 20)
     # Print the result
     print(f"You found a gem worth {gold} gold!")
-        return gold
+    return gold
