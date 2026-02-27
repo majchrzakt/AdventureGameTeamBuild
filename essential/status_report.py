@@ -1,16 +1,21 @@
-# ------------------------------------------------------------------------
-#
-#  Function: status_report
+# Function: status_report
 #
 #  Inputs: health (int), gold (int), title (string)
 #  Returns: none
 #
-#  Description: Displays the player’s current health, gold, and title 
+#  Description: Displays the player’s current health, gold, and title
 #    in a format that's easy to read quickly.
 #
-#  Author: <Your Name>
+#  Author: <CalliGilbertNeel>
 #
 # ------------------------------------------------------------------------
-
 def status_report(health, gold, title):
-    print("Status Report")
+    if health >= 80:
+        health_status = "You're Unstoppable!"
+    elif health >= 45:
+        health_status = "Hang in there!"
+    else:
+        health_status = "Uh Oh!"
+
+    print(f"Title; {title}, Health: {health}, Gold: {gold}, Status {health_status}")
+

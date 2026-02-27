@@ -20,18 +20,18 @@ import os
 # ----------------------------------------------------------
 # Essential Functions
 # ----------------------------------------------------------
-from essential.create_health import create_health
-from essential.create_gold import create_gold
-from essential.choose_title import choose_title
-from essential.validate_choice import validate_choice
-from essential.status_report import status_report
+from essential.create_health import create_health       # by Tom
+from essential.create_gold import create_gold           # by Nate
+from essential.choose_title import choose_title         # by Lu
+from essential.validate_choice import validate_choice   # by B
+from essential.status_report import status_report       # by Calli
 
 # ----------------------------------------------------------
 # Reputation Functions
 # ----------------------------------------------------------
 
-from reputation.knight_promotion import knight_promotion
-from reputation.secret_path import secret_path
+from reputation.knight_promotion import knight_promotion 
+from reputation.secret_path import secret_path           # by Kate
 from reputation.lost_map import lost_map
 from reputation.magical_training import magical_training
 from reputation.royal_favor import royal_favor
@@ -41,11 +41,11 @@ from reputation.secret_talisman import secret_talisman
 # Encounter Functions
 # ----------------------------------------------------------
 
-from encounter.forest_attack import forest_attack
+from encounter.forest_attack import forest_attack        # by John Michael
 from encounter.river_crossing import river_crossing
 from encounter.mystical_potion import mystical_potion
 from encounter.hidden_trap import hidden_trap
-from encounter.rest_inn import rest_inn
+from encounter.rest_inn import rest_inn                  # by Carson
 from encounter.training_session import training_session
 from encounter.haunted_forest import haunted_forest
 from encounter.hidden_pond import hidden_pond
@@ -59,12 +59,12 @@ from encounter.healing_herbs import healing_herbs
 from wealth.find_treasure import find_treasure
 from wealth.bandit_ambush import bandit_ambush
 from wealth.merchant_sale import merchant_sale
-from wealth.find_gem import find_gem
+from wealth.find_gem import find_gem             # by Dario
 from wealth.duel_knight import duel_knight
 from wealth.gold_mine import gold_mine
 from wealth.cursed_coin import cursed_coin
 from wealth.treasure_map import treasure_map
-from wealth.lottery import lottery
+from wealth.lottery import lottery               # by Alex
 
 
 # ----------------------
