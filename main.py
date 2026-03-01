@@ -44,7 +44,7 @@ from reputation.secret_talisman import secret_talisman
 from encounter.forest_attack import forest_attack        # by John Michael
 from encounter.river_crossing import river_crossing
 from encounter.mystical_potion import mystical_potion
-from encounter.hidden_trap import hidden_trap
+from encounter.hidden_trap import hidden_trap            # by Trevor
 from encounter.rest_inn import rest_inn                  # by Carson
 from encounter.training_session import training_session
 from encounter.haunted_forest import haunted_forest
