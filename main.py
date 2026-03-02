@@ -33,7 +33,7 @@ from essential.status_report import status_report       # by Calli
 from reputation.knight_promotion import knight_promotion 
 from reputation.secret_path import secret_path           # by Kate
 from reputation.lost_map import lost_map
-from reputation.magical_training import magical_training
+from reputation.magical_training import magical_training # by Jackson
 from reputation.royal_favor import royal_favor
 from reputation.secret_talisman import secret_talisman
 
@@ -48,8 +48,8 @@ from encounter.hidden_trap import hidden_trap            # by Trevor
 from encounter.rest_inn import rest_inn                  # by Carson
 from encounter.training_session import training_session
 from encounter.haunted_forest import haunted_forest
-from encounter.hidden_pond import hidden_pond
-from encounter.ambush import ambush
+from encounter.hidden_pond import hidden_pond            # by Luther
+from encounter.ambush import ambush                      # by Coda
 from encounter.healing_herbs import healing_herbs        # by Tory
 
 # ------------------------------------------------------------------------
