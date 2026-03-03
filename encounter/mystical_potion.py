@@ -7,12 +7,18 @@
 #
 #  Description: Drinking a potion restores a random amount of health.
 #
-#  Author: <Your Name>
+#  Author: <Maksym Kholodenko>
 #
 # ------------------------------------------------------------------------
 
 import random
 
 def mystical_potion(health):
-    print("Mystical Potion")
-    return health+5
+
+    restore = random.randint(5, 10)
+
+    print("You drink a mystical potion.")
+    print(f"It restores {restore} health.")
+
+    health += restore
+    return health
