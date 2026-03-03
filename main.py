@@ -46,7 +46,7 @@ from encounter.river_crossing import river_crossing
 from encounter.mystical_potion import mystical_potion
 from encounter.hidden_trap import hidden_trap            # by Trevor
 from encounter.rest_inn import rest_inn                  # by Carson
-from encounter.training_session import training_session
+from encounter.training_session import training_session  # by Maksym
 from encounter.haunted_forest import haunted_forest
 from encounter.hidden_pond import hidden_pond            # by Luther
 from encounter.ambush import ambush                      # by Coda
