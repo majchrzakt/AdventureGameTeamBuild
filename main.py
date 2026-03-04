@@ -61,7 +61,7 @@ from wealth.bandit_ambush import bandit_ambush
 from wealth.merchant_sale import merchant_sale
 from wealth.find_gem import find_gem                    # by Dario
 from wealth.duel_knight import duel_knight
-from wealth.gold_mine import gold_mine
+from wealth.gold_mine import gold_mine                  # by Josh
 from wealth.cursed_coin import cursed_coin
 from wealth.treasure_map import treasure_map
 from wealth.lottery import lottery                      # by Alex
