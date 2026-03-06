@@ -8,9 +8,8 @@
 #    random scenario plays out.  The player can continue choosing between 
 #    these three options or can choose to quit.
 #
-#  Author: Main program flow created by Tina Majchrzak with assitance
-#    from ChatGPT (OpenAI), February 2026.  Individual functions written 
-#    by students in 161P.
+#  Authors: Main program flow created by Tina Majchrzak, February 2026.
+#    Individual functions written by students in 161P.
 #
 # ------------------------------------------------------------------------
 
